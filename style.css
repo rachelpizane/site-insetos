@@ -1,195 +1,218 @@
 /* Propriedades Gerais - Inicio */
 * {
-    margin:0px;
-    padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #313E29;
-    background-color: #f5ffdf;
-    
+  font-family: "Poppins", sans-serif;
+  color: #313e29;
+  background-color: #f5ffdf;
+  font-size: 0.9em;
 }
 
-p:not(#insetos p) { 
-    margin: 1rem 0;
-    font-size: .9rem;
+p:not(#insetos p) {
+  margin: 1rem 0;
 }
 
 /* Propriedades Gerais - Fim */
 
 header {
-    height: 10vh;
-    padding: 1rem;
-    background-color: #86ad47;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.767);
-    position: fixed;
-    left:0;
-    right:0;
-    text-align: center;
-    font-size: .9rem;
+  height: 10vh;
+  padding: 1rem;
+  background-color: #86ad47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.767);
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 header nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 1rem;
-    flex: 1;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  flex: 1;
 }
 
 header nav ul li {
-    display: flex;
+  display: flex;
 }
 
-
 header nav ul li a {
-    display: inline-block;
-    align-self: stretch;
-    text-decoration: none;
-    color:#f7ffe6;
-    display: block;
-    padding: .25rem 0;
-    border-bottom: 2px solid transparent;
+  display: inline-block;
+  align-self: stretch;
+  text-decoration: none;
+  color: #f7ffe6;
+  display: block;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
 }
 
 header nav ul li a:hover {
-    border-bottom: 2px solid #313E29;
+  border-bottom: 2px solid #313e29;
 }
 
 #insetos {
-    padding-top: 10vh;
+  padding-top: 10vh;
 }
 
-#insetos article {
-    height: 90vh;
-    padding: 1.75rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+.insetos_card {
+  height: 100vh;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-#insetos h1 {
-    font-size: 1.5rem;
-    align-self: flex-start;
-    padding: 0 .25rem .25rem 0;
-    border-bottom: 2px solid #313E29
+.insetos_card h1 {
+  font-size: 1.5rem;
+  align-self: flex-start;
+  padding: 0 0.25rem 0.25rem 0;
+  border-bottom: 2px solid #313e29;
 }
 
-#insetos picture img{
-    display: block;
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-top: 3px solid #86ad47;
-    border-bottom: 3px solid #86ad47;
+.insetos_img img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top: 3px solid #86ad47;
+  border-bottom: 3px solid #86ad47;
 }
 
 #morf_externa {
-    padding: 0 1.5rem 1.5rem;
-    background-color: #313E29;
-    color: #ffffffa9;
+  padding: 0 1.5rem 1.5rem;
+  background-color: #313e29;
+  color: #ffffffa9;
 }
 
 .morf_externa_introducao {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
-    text-align: center; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  text-align: center;
 }
 
 .morf_externa_introducao h2 {
-    text-transform: uppercase;
-    font-size: 2.75rem;
-    border-top: 1px solid #ffffffa9;
-    border-bottom: 1px solid #ffffffa9;
+  text-transform: uppercase;
+  font-size: 2.75rem;
+  border-top: 1px solid #ffffffa9;
+  border-bottom: 1px solid #ffffffa9;
 }
 
 #morf_externa .box {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .box .morf_externa_card {
-    background-color: #f5ffdf21;
-    padding: 1.25rem;
-    border-radius: .5rem;
+  background-color: #f5ffdf21;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
 }
 
 .box .morf_externa_card h3 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
-
 #morf_interna {
-    padding: 13vh 1.5rem 2rem;
+  padding: 13vh 1.5rem 2rem;
 }
 
 #morf_interna h2 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
 }
 
+
 .morf_interna_card {
-    margin: 2rem 0;
-    padding: 0 1.25rem;
-    border-left: 3px solid transparent;
+  margin: 2rem 0;
+  padding: 0 1.25rem;
+  border-left: 3px solid transparent;
 }
 
 .morf_interna_card:hover {
-    transition: 1s;
-    border-left: 3px solid #313E29;
+  transition: 1s;
+  border-left: 3px solid #313e29;
 }
 
 .attribution {
-    padding: .5rem;
-    text-align: center;
-    background-color: #86ad47;
-    color: #f5ffdf;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #86ad47;
+  color: #f5ffdf;
+  border-top: 3px solid #313e29;
 }
 
 .attribution a {
-    color: #313E29;
+  color: #313e29;
 }
 
-.attribution a:hover{
-    transition: .3s;
-    color: inherit;
-    text-decoration: none;
+.attribution a:hover {
+  transition: 0.3s;
+  color: inherit;
+  text-decoration: none;
 }
 
-@media (min-width:735px) {
-    header {
-        justify-content: end;
-        padding: 0 1rem;
-    }
+@media (min-width: 740px) {
+  header {
+    justify-content: end;
+    padding: 0 1rem;
+  }
 
-    #introducao {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  #insetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    #introducao article {
-        max-width: 60ch;
-        justify-self: center;
-    }
+  .insetos_card {
+    height: 80vh;
+    max-width: 60ch;
+    justify-self: center;
+    gap: 1.25rem;
+    font-size: 0.9rem;
+  }
 
-    #introducao picture source {
-        max-width: 100%;
-        height: 100%;
-        object-fit: contain;
-        object-position: center;
-    }
+  .insetos_img img {
+    border: none;
+    border-left: 3px solid #86ad47;
+  }
+
+  #morf_externa,
+  #morf_interna {
+    padding: 15vh 1.5rem;
+  }
+
+  .morf_externa_introducao {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  #morf_externa .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #morf_interna h2 {
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .morf_interna_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-
-
