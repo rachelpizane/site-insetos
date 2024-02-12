@@ -15,8 +15,8 @@ p:not(#insetos p) {
 }
 
 header {
-  height: 2rem;
-  padding: 1rem;
+  max-height: 2rem;
+  padding: 1.5rem;
   background-color: #86ad47;
   display: flex;
   align-items: center;
@@ -39,16 +39,17 @@ header nav ul {
 
 header nav ul li {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header nav ul li a {
   display: inline-block;
-  align-self: stretch;
   text-decoration: none;
   color: #f7ffe6;
-  display: block;
   padding: 0.25rem 0;
   border-bottom: 2px solid transparent;
+  box-sizing: border-box;
 }
 
 header nav ul li a:hover {
@@ -56,8 +57,8 @@ header nav ul li a:hover {
 }
 
 .insetos_card {
-  height: calc(100vh + 3rem);
-  padding: 1.75rem;
+  height: calc(100vh + 3px);
+  padding: 4rem 1.5rem 1rem;;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +70,7 @@ header nav ul li a:hover {
 .insetos_card h1 {
   font-size: 1.5rem;
   align-self: flex-start;
-  padding: 0 0.25rem 0.25rem 0;
+  padding: 0 0.25rem 0.5rem 0;
   border-bottom: 2px solid #313e29;
 }
 
@@ -84,24 +85,21 @@ header nav ul li a:hover {
   box-sizing: border-box;
 }
 
-#morf_externa, #morf_interna {
-  padding: 4rem 1.25rem;
-}
-
 #morf_externa {
   background-color: #313e29;
   color: #ffffffa9;
+  padding: 4rem 1.25rem;
 }
 
 .morf_externa_introducao {
-  height:100vh;
-  padding-bottom: 4rem;
+  height:calc(100vh - 4rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
   text-align: center;
   box-sizing: border-box;
+  border: 1px solid grey;
 }
 
 .morf_externa_introducao h2 {
@@ -125,6 +123,10 @@ header nav ul li a:hover {
 
 .morf_externa_card h3 {
   font-size: 1.25rem;
+}
+
+#morf_interna {
+  padding: 5rem 1.25rem;
 }
 
 #morf_interna h2 {
@@ -166,6 +168,7 @@ header nav ul li a:hover {
 @media (min-width: 740px) {
   header {
     justify-content: end;
+    padding: 1.25rem;
   }
 
   #insetos {
@@ -186,7 +189,7 @@ header nav ul li a:hover {
   }
 
   #morf_externa, #morf_interna {
-    padding: 4rem;
+    padding: 5rem;
   }
 
   .morf_externa_introducao {
@@ -206,5 +209,6 @@ header nav ul li a:hover {
   .morf_interna_box {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 }
