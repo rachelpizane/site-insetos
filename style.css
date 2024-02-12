@@ -1,4 +1,3 @@
-/* Propriedades Gerais - Inicio */
 * {
   margin: 0px;
   padding: 0px;
@@ -15,10 +14,8 @@ p:not(#insetos p) {
   margin: 1rem 0;
 }
 
-/* Propriedades Gerais - Fim */
-
 header {
-  height: 10vh;
+  height: 2rem;
   padding: 1rem;
   background-color: #86ad47;
   display: flex;
@@ -58,18 +55,15 @@ header nav ul li a:hover {
   border-bottom: 2px solid #313e29;
 }
 
-#insetos {
-  padding-top: 10vh;
-}
-
 .insetos_card {
-  height: 100vh;
+  height: calc(100vh + 3rem);
   padding: 1.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  box-sizing: border-box;
 }
 
 .insetos_card h1 {
@@ -87,21 +81,27 @@ header nav ul li a:hover {
   object-position: center;
   border-top: 3px solid #86ad47;
   border-bottom: 3px solid #86ad47;
+  box-sizing: border-box;
+}
+
+#morf_externa, #morf_interna {
+  padding: 4rem 1.25rem;
 }
 
 #morf_externa {
-  padding: 0 1.5rem 1.5rem;
   background-color: #313e29;
   color: #ffffffa9;
 }
 
 .morf_externa_introducao {
-  height: 100vh;
+  height:100vh;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .morf_externa_introducao h2 {
@@ -111,32 +111,28 @@ header nav ul li a:hover {
   border-bottom: 1px solid #ffffffa9;
 }
 
-#morf_externa .box {
+#morf_externa .box_morf_externa {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.box .morf_externa_card {
+.morf_externa_card {
   background-color: #f5ffdf21;
   padding: 1.25rem;
   border-radius: 0.5rem;
 }
 
-.box .morf_externa_card h3 {
+.morf_externa_card h3 {
   font-size: 1.25rem;
-}
-
-#morf_interna {
-  padding: 13vh 1.5rem 2rem;
 }
 
 #morf_interna h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
+  padding: 1.25rem 0;
 }
-
 
 .morf_interna_card {
   margin: 2rem 0;
@@ -162,7 +158,7 @@ header nav ul li a:hover {
 }
 
 .attribution a:hover {
-  transition: 0.3s;
+  transition: 0.5s;
   color: inherit;
   text-decoration: none;
 }
@@ -170,7 +166,6 @@ header nav ul li a:hover {
 @media (min-width: 740px) {
   header {
     justify-content: end;
-    padding: 0 1rem;
   }
 
   #insetos {
@@ -179,7 +174,6 @@ header nav ul li a:hover {
   }
 
   .insetos_card {
-    height: 80vh;
     max-width: 60ch;
     justify-self: center;
     gap: 1.25rem;
@@ -191,9 +185,8 @@ header nav ul li a:hover {
     border-left: 3px solid #86ad47;
   }
 
-  #morf_externa,
-  #morf_interna {
-    padding: 15vh 1.5rem;
+  #morf_externa, #morf_interna {
+    padding: 4rem;
   }
 
   .morf_externa_introducao {
@@ -201,13 +194,12 @@ header nav ul li a:hover {
     padding-bottom: 2rem;
   }
 
-  #morf_externa .box {
+  .box_morf_externa {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   #morf_interna h2 {
-    padding-bottom: 2rem;
     font-size: 2.5rem;
   }
 
