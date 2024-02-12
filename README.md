@@ -4,21 +4,26 @@
 Este site foi desenvolvido baseado no [exercício da etapa 01 da disciplina "Programação Web com HTML5 e CSS3"](https://github.com/rachelpizane/infnet_prog_web_html_css/blob/7f89725cfbae08c911538a1dc9fe6c8200d2e0e3/E01EXC01_tags_h1_p/index.html). 
 
 Nele, aprimorei o código HTML incorporando diversas estilizações, implementando a responsividade, adicionando um menu de navegação, inserindo uma imagem e incluindo um rodapé.
-
 <br>
+
 ## 2. Status do Projeto 🕜
 Em andamento
-
 <br>
-## 3. Overview 🌎  
 
-### 3.1. Screenshot
+## 3. Overview 🌎 
 
-### 3.2. Links
+### 3.1. Links
 
 - GitHub Page: [Insetos](https://rachelpizane.github.io/site-insetos/)
 
+### 3.2. Screenshot
+![xxx](img/page.gif)
+
+<p align="center">
+<img src="img/mobile%20(1).gif">
+</p>
 <br>
+
 ## 4. Meu processo 🗺️
 
 ### 4.1. Ferramentas/técnicas utilizadas
