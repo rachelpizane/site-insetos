@@ -30,7 +30,7 @@ Concluído ⭐
 ### 4.1. Ferramentas/técnicas utilizadas
 
 - HTML5; 
-- CSS4;
+- CSS3;
 - Grid;
 - Flexbox;
 - Media Queries (Mobile-first).
