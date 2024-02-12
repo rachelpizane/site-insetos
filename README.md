@@ -7,7 +7,7 @@ Nele, aprimorei o código HTML incorporando diversas estilizações, implementan
 <br>
 
 ## 2. Status do Projeto 🕜
-Em andamento
+Concluído ⭐
 <br>
 
 ## 3. Overview 🌎 
@@ -17,11 +17,12 @@ Em andamento
 - GitHub Page: [Insetos](https://rachelpizane.github.io/site-insetos/)
 
 ### 3.2. Screenshot
-![xxx](img/page.gif)
 
 <p align="center">
-<img src="img/mobile%20(1).gif">
+<img src="img/project-mobile.gif">
 </p>
+
+![xxx](img/project-desktop.gif)
 <br>
 
 ## 4. Meu processo 🗺️
