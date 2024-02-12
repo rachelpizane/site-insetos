@@ -167,7 +167,7 @@ header nav ul li a:hover {
 @media (min-width: 740px) {
   header {
     justify-content: end;
-    padding: 1.25rem;
+    padding: 1.25rem 2.5rem;
   }
 
   #insetos {
