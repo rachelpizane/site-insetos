@@ -4,6 +4,7 @@
 Este site foi desenvolvido baseado no [exercício da etapa 01 da disciplina "Programação Web com HTML5 e CSS3"](https://github.com/rachelpizane/infnet_prog_web_html_css/blob/7f89725cfbae08c911538a1dc9fe6c8200d2e0e3/E01EXC01_tags_h1_p/index.html). 
 
 Nele, aprimorei o código HTML incorporando diversas estilizações, implementando a responsividade, adicionando um menu de navegação, inserindo uma imagem e incluindo um rodapé.
+<br>
 
 ## 2. Status do Projeto 🕜
 Em andamento
