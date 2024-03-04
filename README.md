@@ -41,5 +41,5 @@ Criei meu primeiro menu vinculado às diferentes seções do site. A parte mais 
 
 Melhorei meu entendimento sobre como usar media queries, começando com a versão para celular e depois para computador.
 
-Além disso, aprendi como colocar e fazer uma imagem se ajustar de forma adequada em site, tornando-a responsiva.
+Além disso, aprendi como colocar e fazer uma imagem se ajustar de forma adequada em um site, tornando-a responsiva.
 
